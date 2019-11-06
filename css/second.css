@@ -1,0 +1,38 @@
+.slide{
+	margin-top: 100px;
+	margin-left: 300px;
+	width: 600px;
+	height: 600px;
+}
+.slide2{
+	margin-top: 100px;
+	margin-left: 300px;
+	width: 500px;
+	height: 600px;
+}
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+.text {
+  color: #fff;
+  font-size: 15px;
+  margin-left: 500px;
+  margin-top: -230px;
+  position: relative;
+  bottom: 80px;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  background-color: red;
+}
+#myBtn{
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #1047a1;
+  border: #1047a1;
+  color: #fff;
+  font-size: 12px;
+}
+#more {display: none;}
