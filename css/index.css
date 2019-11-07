@@ -95,7 +95,7 @@ top a:hover {
 }
 .slideshow-container {
   position: relative;
-  margin: auto;
+  margin-top:auto;
 }
 .text {
   color: #fff;
@@ -122,6 +122,9 @@ top a:hover {
 .third{
 	margin-left: 100px;
 }
+#team{
+	padding-top: 100px;
+}
 .thirdpage{
 	display: grid;
 	grid-template-columns: 300px 300px 300px 300px ;
@@ -130,4 +133,91 @@ top a:hover {
 .image3{
 	width: 200px;
 	height: 200px;
+}
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 6px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #ff0084;
+  color: white;
+}
+
+.twitter {
+  background: #ff0084;
+  color: white;
+}
+.linkedin {
+  background: #ff0084;
+  color: white;
+}
+
+.youtube {
+  background: #ff0084;
+  color: white;
+}
+.fourbcolor{
+	background-color:#9eb8de;
+}
+.four{
+	display: grid;
+	grid-template-columns: 80px 80px 80px 80px;
+	justify-content: space-between;
+	width: 400px;
+	text-align: center;
+}
+.fri{
+	background-color:#8e949e;
+}
+.party{
+	width: 80px;
+	height: 80px;
+}
+.fourthpage{
+	display: flex;
+	justify-content: space-between;
+	width: 650px;
+	padding-top: 6px;
+	background-color:#fff;
+	margin-left: 50px;
+}
+.pool{
+	width: 400px;
+	font-size: 14px;
+}
+.edit{
+	width: 70px;
+	height: 30px;
+	border-radius: 10px;
+	border-color: #458bff;
+	background-color: #85aced;
+}
+.delete{
+	width: 70px;
+	height: 30px;
+	border-radius: 10px;
+	border-color: #458bff;
+	background-color: #85aced;
+	margin-top: 40px;
+	margin-left: -90px;
+}
+#event{
+ padding-top: 150px;
 }
