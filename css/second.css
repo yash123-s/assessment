@@ -1,38 +1,54 @@
-.slide{
-	margin-top: 100px;
-	margin-left: 300px;
-	width: 600px;
-	height: 600px;
+#team{
+ padding-top: 67px;
 }
-.slide2{
-	margin-top: 100px;
-	margin-left: 300px;
-	width: 500px;
-	height: 600px;
-}
-.slideshow-container {
-  position: relative;
-  margin: auto;
-}
-.text {
+#iconcolor{
   color: #fff;
-  font-size: 15px;
-  margin-left: 500px;
-  margin-top: -230px;
-  position: relative;
-  bottom: 80px;
-  width: 300px;
-  height: 300px;
-  text-align: center;
-  background-color: red;
+  font-size: 18px;
+  text-decoration: none;
 }
-#myBtn{
-  width: 100px;
-  height: 40px;
-  border-radius: 20px;
-  background-color: #1047a1;
-  border: #1047a1;
-  color: #fff;
-  font-size: 12px;
+#topmar{
+    width: 1000px;
+    margin-left: 250px;
 }
-#more {display: none;}
+#wid{
+  width: 150px;
+  height: 100px;
+}
+#gridforimage{
+  display: grid;
+  grid-template-columns:150px 150px 150px 150px;
+  grid-template-rows: 157px 157px;
+  grid-row-gap: 35px;
+  grid-column-gap: 80px;  
+  margin-top: 50px;
+  margin-left: -10px;
+}
+#aa{
+  position: relative; 
+  background-color: #a38b89;
+}
+#aa:hover .over{
+  opacity: 1;
+}
+.over{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+}
+.social{
+   width: 20px;
+   height: 80px;
+   background-color: #ff00c3;
+}
+#current_day { 
+  background-color:yellow; 
+  font-weight: bold;
+}
+#cal{
+  margin-top: -350px;
+  margin-left: 900px;
+} 

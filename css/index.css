@@ -118,73 +118,37 @@ top a:hover {
   color: #fff;
   font-size: 12px;
 }
-#more {display: none;}
+#more {
+  display: none;
+}
 .third{
 	margin-left: 100px;
 }
-#team{
-	padding-top: 100px;
-}
-.thirdpage{
-	display: grid;
-	grid-template-columns: 300px 300px 300px 300px ;
-	margin-left: 100px;
-}
-.image3{
-	width: 200px;
-	height: 200px;
-}
-.icon-bar {
-  position: fixed;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  
-}
 
-.icon-bar a {
-  display: block;
-  text-align: center;
-  padding: 6px;
-  transition: all 0.3s ease;
-  color: white;
-  font-size: 20px;
-}
-
-.icon-bar a:hover {
-  background-color: #000;
-}
-
-.facebook {
-  background: #ff0084;
-  color: white;
-}
-
-.twitter {
-  background: #ff0084;
-  color: white;
-}
-.linkedin {
-  background: #ff0084;
-  color: white;
-}
-
-.youtube {
-  background: #ff0084;
-  color: white;
-}
 .fourbcolor{
 	background-color:#9eb8de;
+  height: 450px;
+  width: 1000px;
+  padding: 20px;
+  margin-left: 100px;
 }
 .four{
 	display: grid;
-	grid-template-columns: 80px 80px 80px 80px;
+	grid-template-columns: 100px 100px 100px 100px;
 	justify-content: space-between;
 	width: 400px;
 	text-align: center;
+  grid-column-gap: 20px;
+}
+.fri1{
+  background-color:#8e949e;
+  width: 100px;
+  margin-bottom: 12px;
+  margin-top: 10px;
 }
 .fri{
 	background-color:#8e949e;
+  margin-left: 20px;
 }
 .party{
 	width: 80px;
@@ -219,5 +183,5 @@ top a:hover {
 	margin-left: -90px;
 }
 #event{
- padding-top: 150px;
+ padding-top: 140px;
 }

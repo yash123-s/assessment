@@ -12,4 +12,105 @@
 	color:#0a5f73;
 	border-color:#97aac7;
 	width: 80px;
+	margin-left: 5px;
+}
+#bcolor{
+	background-color: #5a6369;
+	width: 500px;
+	padding: 30px;
+}
+#pointer{
+	background-color: #d6d6d6;
+	width: 380px;
+	padding-left: 120px;
+	padding-top: 80px;
+}
+#sig{
+	background-color: #d6d6d6;
+	width: 380px;
+	padding-left: 120px;
+	padding-top:20px; 
+}
+.forgot{
+	color: #fff;
+	margin-top: -2px;
+	margin-left: 60px;
+	color: #598fb5;
+}
+.dont{
+	color: #fff;
+}
+
+
+
+
+
+#signup{
+	background-color: #d5dbf0;
+	width: 700px;
+}
+#resident{
+	border-radius: 20px;
+	border-color: #0099ff;
+	color: #0099ff;
+	width: 100px;
+	padding: 5px;
+	margin-left: 50px;
+	margin-top: 10px;
+}
+#info{
+	display: grid;
+	grid-template-columns: 150px 150px 150px 150px;
+	grid-column-gap: 12px;
+	grid-row-gap: 8px;
+	margin-left: 20px;
+}
+.fnp{
+	padding-top: 10px;
+}
+#secn{
+	grid-column: 1/3;
+}
+.fn{
+	margin-top: 10px;
+}
+#sn{
+	grid-column: 3/5;
+	padding-top: 10px;
+	}
+#isec{
+	grid-column: 3/5
+}
+#state{
+	grid-column: 3/4;
+}
+#fnn{
+	padding-right: 130px;
+	padding-top: 5px;
+}
+#zip{
+	width: 135px;
+}
+#loginsubmit{
+	margin-top: 10px;
+	border-radius: 20px;
+	width: 110px;
+	height: 30px;
+	border-color:#00ccff;
+	background-color:#00ccff;
+	color: #fff;
+	font-size: 15px;
+}
+#already{
+	text-align: center;
+	color: white;
+}
+#login{
+	margin-top: 10px;
+	border-color: #a2afb8;
+	background-color: #a2afb8;
+	width: 60px;
+	border-radius: 20px;
+	margin-left: 8px;
+	color: #0099ff;
 }
